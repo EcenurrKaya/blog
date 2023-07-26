@@ -1,0 +1,31 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home img{
+    margin-top: 80px;
+    width: 100%;
+}
+
+.home--text{
+    position: absolute;
+    line-height: 1;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.home span{
+    position: absolute;
+    font-size: 80px;
+    color: rgb(126, 43, 17);
+}
+
+.home p{
+    font-size: 20px;
+}
+
+.home--img{
+    width: 100%;
+    height: 100%;
+}
