@@ -1,6 +1,7 @@
 .sidebar{
     width: 400px;
-    margin-right: 50px;
+    overflow: hidden;
+    
 }
 
 .sidebar--img{
@@ -21,13 +22,13 @@
 }
 
 .sidebar--photo{
-    width:300px;
+    width: 100%;
 }
 
 .sidebar--body{
     width: auto;
     margin-left:20px;
-    margin-top: 10px;
+
 }
 
 .sidebar--body h6{

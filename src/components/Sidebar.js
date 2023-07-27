@@ -5,6 +5,7 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
       <div className='sidebar--body'>
+        <h6>ABOUT ME</h6>
         <img src='../img/photo.jpg' className='sidebar--photo'/>
         <p>Lorem Ipsum, kısaca Lipsum, masaüstü yayıncılık ve basın yayın sektöründe kullanılan taklit yazı bloğu olarak tanımlanır. Lipsum, oluşturulacak şablon ve taslaklarda içerik yerine geçerek yazı bloğunu doldurmak için kullanılır</p>
        
@@ -25,7 +26,7 @@ const Sidebar = () => {
         </div>
 
         <h6>FOLLOW US</h6>
-        
+
         <div className='sidebar--img'>
           <img src='../img/github.png'/>
           <img src='../img/instagram.png'/>

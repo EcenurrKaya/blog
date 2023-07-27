@@ -1,3 +1,22 @@
-.card{
+.cardd{
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: 30px;
+}
+
+.card--body{
+   width: 350px;
+   overflow: hidden;
+}
+
+.cardd img{
    width: 100%;
+   border-radius: 10px;
+}
+
+.card--body span{
+   justify-content: center;
+   color: #ccc;
+   margin-right: 20px;
 }
