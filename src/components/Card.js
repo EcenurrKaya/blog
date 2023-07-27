@@ -1,8 +1,10 @@
 import React from 'react'
+import './Card.css'
 
 const Card = () => {
   return (
-    <div>Card</div>
+    <div className='card'>Card</div>
+    
   )
 }
 

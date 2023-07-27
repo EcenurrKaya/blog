@@ -1,0 +1,49 @@
+.sidebar{
+    width: 400px;
+    margin-right: 50px;
+}
+
+.sidebar--img{
+    text-align: center;
+}
+
+.sidebar--img img{
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.sidebar ul{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.sidebar--photo{
+    width:300px;
+}
+
+.sidebar--body{
+    width: auto;
+    margin-left:20px;
+    margin-top: 10px;
+}
+
+.sidebar--body h6{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.sidebar--list{
+    text-align: center;
+}
+
+.list-right{
+    margin-left: 20px;
+}
+
+.list-left{
+    margin-right: 20px;
+}
