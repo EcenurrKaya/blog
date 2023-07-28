@@ -1,8 +1,9 @@
 import './App.css';
-import About from './components/About';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Home from './components/Home';
+import Post from './components/Post';
+import Write from './components/Write';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Navbar/>
       <Header/>
       <Home/>
+      <Post/>
+      <Write/>
     </div>
   );
 }
