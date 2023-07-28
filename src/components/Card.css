@@ -1,13 +1,22 @@
 .cardd{
    text-align: center;
-   display: flex;
+   display: inline-block;
    flex-wrap: wrap;
    margin-right: 30px;
+   
 }
 
 .card--body{
-   width: 350px;
+   width: 250px;
    overflow: hidden;
+   border: 1px solid #adacac;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.card--body h3{
+   border-bottom: 1px solid #adadad;
+    border-top: 1px solid #adadad;
 }
 
 .cardd img{

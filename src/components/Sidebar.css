@@ -37,6 +37,10 @@
     border-top: 1px solid #ccc;
 }
 
+.sidebar--body p{
+    font-size: 12px;
+}
+
 .sidebar--list{
     text-align: center;
 }

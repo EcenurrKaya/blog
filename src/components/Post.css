@@ -1,0 +1,45 @@
+.post{
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.post--head{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.post--head img{
+    width: 25px;
+    height: 25px;
+}
+
+.post--mainphoto{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.post--image img{
+   margin-right: 10px;
+}
+
+.post--althead{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.post p{
+    margin:10px
+}
+
+.post--title{
+    flex: 1;
+}
+
+.post--title h3{
+    margin: 0;
+    text-align: center;
+}

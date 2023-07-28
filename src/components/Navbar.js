@@ -1,8 +1,11 @@
 import React from 'react'
 import './Navbar.css'
+import { Link, Route, Router } from 'react-router-dom';
+import Write from './Write';
 
 const Navbar = () => {
   return (
+    <>
     <div className='navbar'>
             <div className='logo'>
                 <img src='../img/github.png'/>
@@ -15,7 +18,9 @@ const Navbar = () => {
                     <li>HOME</li>
                     <li>ABOUT</li>
                     <li>CONTACT</li>
-                    <li>WRITE</li>
+                    <li>
+                      WRITE
+                    </li>
                 </ul>
             </div>
 
@@ -24,6 +29,8 @@ const Navbar = () => {
                 <img src='../img/search.png'/>
             </div>
     </div>
+   
+    </>
   )
 }
 
