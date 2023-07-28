@@ -11,8 +11,8 @@ const Post = () => {
             <h3>Lorem Ipsum Dolor</h3>
           </div>
           <div className='post--image'>
-            <img src='../img/github.png'/>
-            <img src='../img/instagram.png'/>
+            <img src='../img/edit.png'/>
+            <img src='../img/delete.png'/>
           </div>
         </div>
         <div className='post--althead'>

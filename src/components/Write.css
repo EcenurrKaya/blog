@@ -1,3 +1,46 @@
 .write{
+    width: 80%;
+    margin-left: 200px;
+}
+
+.write--title{
     display: flex;
+    justify-content: space-between;  
+    margin-left: 100px; 
+    align-items: center;
+}
+
+.write--title button{
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(54, 173, 104);
+    padding: 10px;
+    height: 40px;
+}
+
+.write--title2{
+    display: flex;
+
+}
+
+.write--title2 img{
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.write--photo{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.write textarea{
+    width: 1000px;
+    border: 0;
+    font-size: 24px;
+}
+
+.write-desc{
+    margin-left: 130px;
 }

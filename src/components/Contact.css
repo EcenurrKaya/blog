@@ -1,0 +1,24 @@
+.contact{
+    margin-left: 200px;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+.contact input{
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.contact div{
+    margin-bottom: 30px;
+}
+
+.contact button{
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(37, 170, 77);
+    padding: 10px ;
+}
