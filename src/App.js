@@ -1,21 +1,20 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
 import Home from './components/Home';
-import Post from './components/Post';
 import Write from './components/Write';
 import Contact from './components/Contact';
 import {Route, Routes} from 'react-router-dom'
+import PostPage from './components/PostPage';
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Header/>
+      <Navbar/> 
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/write" element={<Write/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="/post" element={<PostPage/>}></Route>
       </Routes>
 
     </div>

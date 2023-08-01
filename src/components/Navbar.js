@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className='navbar--li mt-3'>
                 <ul>
                     <NavLink to="/"><li>HOME</li></NavLink>
-                    <NavLink to="/"><li>ABOUT</li></NavLink>
+                    <NavLink to="/post"><li>ABOUT</li></NavLink>
                     <NavLink to="/contact"><li>CONTACT</li></NavLink>
                     <NavLink to="/write"><li>WRITE</li></NavLink>
                 </ul>
