@@ -15,10 +15,10 @@ const Navbar = () => {
 
             <div className='navbar--li mt-3'>
                 <ul>
-                    <NavLink to="/"><li>HOME</li></NavLink>
-                    <NavLink to="/post"><li>ABOUT</li></NavLink>
-                    <NavLink to="/contact"><li>CONTACT</li></NavLink>
-                    <NavLink to="/write"><li>WRITE</li></NavLink>
+                  <li><NavLink to="/">HOME</NavLink></li>
+                  <li><NavLink to="/post">ABOUT</NavLink></li>
+                  <li><NavLink to="/contact">CONTACT</NavLink></li>
+                  <li><NavLink to="/write">WRITE</NavLink></li>
                 </ul>
             </div>
 
