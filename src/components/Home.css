@@ -4,8 +4,7 @@
 }
 
 .homee--card{
-    width: 100%;
     display: flex;
     overflow: hidden;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }

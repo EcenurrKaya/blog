@@ -1,45 +1,61 @@
-.post{
-    width: 90%;
-    margin-left: 50px;
-    margin-right: 50px;
+.singlePost{
+    flex:9
 }
 
-.post--head{
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-    justify-content: space-between;
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
 }
 
-.post--head img{
-    width: 25px;
-    height: 25px;
-}
-
-.post--mainphoto{
+.singlePostImg{
     width: 100%;
-    border-radius: 20px;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
-.post--image img{
-   margin-right: 10px;
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora', serif;
+    font-size: 28px;
 }
 
-.post--althead{
+.singlePostEdit{
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+    color:teal;
+}
+
+.singlePostIcon:last-child{
+    color: tomato;
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    font-size: 16px;
+    font-family: 'Varela Round', serif;
+    color: #b39656;
 }
 
-.post p{
-    margin:10px
+.singlePostDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
 }
 
-.post--title{
-    flex: 1;
-}
-
-.post--title h3{
-    margin: 0;
-    text-align: center;
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
